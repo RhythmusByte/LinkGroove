@@ -1,1 +1,65 @@
-/* 🚀 Code incoming! Stay tuned! */
+/* Color Pallets */
+:root {
+  --bg: rgb(16, 0, 43);
+  --text: rgb(199, 125, 255);
+  --white: rgb(45, 49, 66);
+  --icon: rgb(147, 129, 255);
+  --bgicon: rgb(74, 10, 119);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg);
+    width: 100vw;
+    color: var(--white);
+    font-family: "Anta", sans-serif; 
+}
+
+/* Header */
+header {
+    width: 95%;
+    max-width: 788px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.share-btn {
+    position: relative;
+    width: 30px; /* Adjust the size of the circle as needed */
+    height: 30px; /* Adjust the size of the circle as needed */
+    border-radius: 50%; /* Ensures the circle shape */
+    background-color: var(--bgicon);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-btn svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--icon);
+}
+
+/* 
+.share-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(--bgicon);
+}
+
+.share-btn svg {
+    margin: auto;
+    color: var(--icon);
+}
+ */
+/* Header Ends */
