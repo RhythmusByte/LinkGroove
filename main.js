@@ -1,3 +1,11 @@
+// Preloader
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function() {
+  loader.style.display = "none";
+})
+
+// Copy link
 const shareButtons = document.querySelectorAll('.share-btn')
 console.log(shareButtons)
 
